@@ -1,3 +1,8 @@
+// HOW TO RUN
+docker run -it --rm  --env-file ./dotenv ghcr.io/jef/streetmerchant:nightly test:notification:production
+
+// DEFAULT
+
 <p align="center">
   <a href="https://jef.buzz/streetmerchant"><img src="https://raw.githubusercontent.com/jef/streetmerchant/main/docs/assets/images/streetmerchant-banner.png" /></a>
 </p>

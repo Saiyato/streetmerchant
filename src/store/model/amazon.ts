@@ -756,6 +756,18 @@ export const Amazon: Store = {
       labels: {
         inStock: {
           container: '#productTitle',
+          text: ['Xbox Series X - Halo Infinite Limited Edition Console Bundle'],
+        },
+      },
+      model: 'xbox series x halo',
+      series: 'xboxsxhalo',
+      url: 'https://www.amazon.com/dp/B09DP86ZDH',
+    },
+    {
+      brand: 'microsoft',
+      labels: {
+        inStock: {
+          container: '#productTitle',
           text: ['Xbox Series S'],
         },
       },

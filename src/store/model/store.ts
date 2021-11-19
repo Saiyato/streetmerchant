@@ -59,6 +59,7 @@ export type Series =
   | 'sonyps5de'
   | 'sf'
   | 'xboxsx'
+  | 'xboxsxhalo'
   | 'xboxss';
 
 export type Model =
@@ -213,6 +214,7 @@ export type Model =
   | 'x3 oc'
   | 'xbox series s'
   | 'xbox series x'
+  | 'xbox series x halo'
   | 'xc black'
   | 'xc gaming'
   | 'xc3 black'
@@ -287,7 +289,7 @@ export type Store = {
   };
   labels: Labels;
   name: string;
-  currency: '£' | '$' | '€' | 'R$' | 'kr.' | '';
+  currency: '£' | '$' | '€' | 'R$' | 'kr.' | '' | 'zł';
   setupAction?: (browser: Browser) => void;
   /**
    * The range of status codes which considered successful, i.e. without error

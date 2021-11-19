@@ -111,7 +111,11 @@ export const Print = {
     const productString = `${buildProductString(link, store)} :: IN STOCK`;
 
     if (color) {
-      return chalk.bgGreen.white.bold(`🚀🚨 ${productString} 🚨🚀`);
+      return chalk.bgGreen.white.bold(`🎮 ${productString} 🎮`);
+    }
+
+    if (link.series == "xboxsxhalo") {
+      return `🎮 ${productString}`;
     }
 
     if (sms) {

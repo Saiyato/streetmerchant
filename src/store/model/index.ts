@@ -42,6 +42,7 @@ import {BAndH} from './bandh';
 import {BestBuy} from './bestbuy';
 import {BestBuyCa} from './bestbuy-ca';
 import {Box} from './box';
+import {Bol} from './bol';
 import {Bpctech} from './bpctech';
 import {BpmPower} from './bpmpower';
 import {BT} from './bt';
@@ -95,6 +96,7 @@ import {KomplettNO} from './komplett-no';
 import {LandmarkComputers} from './lmc';
 import {Mediamarkt} from './mediamarkt';
 import {MediamarktAt} from './mediamarkt-at';
+import {MediamarktNL} from './mediamarkt-nl';
 import {Medimax} from './medimax';
 import {Megekko} from './megekko';
 import {MemoryExpress} from './memoryexpress';
@@ -102,6 +104,9 @@ import {MicroCenter} from './microcenter';
 import {MightyApe} from './mightyape';
 import {Mindfactory} from './mindfactory';
 import {Microsoft} from './microsoft';
+import {MicrosoftIT} from './microsoft-it';
+import {MicrosoftNL} from './microsoft-nl';
+import {MicrosoftPL} from './microsoft-pl';
 import {Msy} from './msy';
 import {Multicom} from './multicom';
 import {Mwave} from './mwave';
@@ -211,6 +216,7 @@ export const storeList = new Map([
   [BestBuy.name, BestBuy],
   [BestBuyCa.name, BestBuyCa],
   [Box.name, Box],
+  [Bol.name, Bol],
   [Bpctech.name, Bpctech],
   [BpmPower.name, BpmPower],
   [BT.name, BT],
@@ -264,6 +270,7 @@ export const storeList = new Map([
   [LandmarkComputers.name, LandmarkComputers],
   [Mediamarkt.name, Mediamarkt],
   [MediamarktAt.name, MediamarktAt],
+  [MediamarktNL.name, MediamarktNL],
   [Medimax.name, Medimax],
   [Megekko.name, Megekko],
   [Microsoft.name, Microsoft],
@@ -273,6 +280,9 @@ export const storeList = new Map([
   [MemoryExpress.name, MemoryExpress],
   [MicroCenter.name, MicroCenter],
   [MicrosoftCA.name, MicrosoftCA],
+  [MicrosoftNL.name, MicrosoftNL],
+  [MicrosoftIT.name, MicrosoftIT],
+  [MicrosoftPL.name, MicrosoftPL],
   [MightyApe.name, MightyApe],
   [Mindfactory.name, Mindfactory],
   [Msy.name, Msy],
